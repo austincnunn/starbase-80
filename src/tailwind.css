@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
 html {
 	background-color: theme(colors.slate.50);
@@ -14,6 +15,7 @@ html {
 
 body {
 	min-height: 100vh;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
